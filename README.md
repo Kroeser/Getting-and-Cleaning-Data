@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data
-## Peer-graded assignment: week 4
+## Week 4 - Peer-graded assignment
 The purpose of this project was to demonstrate my ability to collect, work with, and clean a data set. The endgoal was to prepare a tidy data set that can be used for later analysis. 
 
 ## Data used in this project
