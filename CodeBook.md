@@ -1,5 +1,5 @@
 # Code book in relation [tidyData.txt](tidyData.txt)
-This code book describes all the data in the tidyData.txt file and trough what steps it was obtained from the raw data.
+This code book describes all the data in the tidyData.txt file and through what steps it was obtained from the raw data.
 
 ## Processing steps
 The following steps were undertaken to transform the raw data into the tidy data:
