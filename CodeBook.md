@@ -6,15 +6,15 @@ The raw data used in this projects is collected from the accelerometers from the
 ## Processing steps
 The following steps were undertaken to transform the raw data into the tidy data:
 1. The training and test sets were merged into a single data set;
-2. The columns representing a standard deviation or mean measurement were extracted from the single data set;
-3. The integers representing an activity (i.e., 1-6) where replaced with more decriptive character strings (i.e., walking walking upstairs, walking downstairs, sitting, standing and laying);
+2. All columns representing a mean or standard deviation measurement were extracted from the single data set;
+3. The integers representing an activity (i.e., 1-6) where replaced with more decriptive character strings (i.e., walking, walking upstairs, walking downstairs, sitting, standing and laying);
 4. The dependant variables were named (see below); and
 5. Each variable was averaged over each activity and each subject.
 
 ## Key identifying values
 The first two columns of tidyData.txt represent the following:
 1. ID - the unique identification number for each participant (i.e., 1-30); and
-2. Activity - the acticity that the participant was performing:
+2. Activity - the activity that the participant was performing:
 * walking; 
 * walking upstairs;
 * walking downstairs;
