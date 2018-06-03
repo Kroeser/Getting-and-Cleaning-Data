@@ -24,7 +24,7 @@ requiredColumns <- grep("std|mean", features[,2])
 ## index totalData on the basis of the features
 stdMeanData <- totalData[,c(1,2,requiredColumns + 2)] # +2 to account for first two columns of totalData
 
-## Step 3 - Uses descriptive activity names to name the activities in the data set ##
+## Step 3 - Use descriptive activity names to name the activities in the data set ##
 ## read the activity labels and replace numeric values in stdMeanData
 labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 stdMeanData[, 2] <- labels[stdMeanData[,2], 2]
@@ -34,8 +34,8 @@ stdMeanData[, 2] <- labels[stdMeanData[,2], 2]
 fNames <- as.character(features[requiredColumns,2])
 colnames(stdMeanData) <- c("ID", "Activity", fNames)
 
-## Step 5 - Tidy data set with the average of each variable for each activity and each subject. ##
-## load dplyr library and arrange data over id and activity
+## Step 5 - Tidy data set with the average of each variable for each activity and each subject ##
+## load dplyr library. Group and summarize data over id and activity
 library(dplyr)
 groupedData <- group_by(stdMeanData, ID, Activity)
 tidyData <- summarize_all(groupedData,mean)
