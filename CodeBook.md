@@ -1,12 +1,21 @@
 # Code book in relation [tidyData.txt](tidyData.txt)
-This code book described all the data in the tidyData.txt file
+This code book describes all the data in the tidyData.txt file and trough what steps it was obtained from the raw data.
 
 ## Processing steps
+The following steps were undertaken to transform the raw data into the tidy data:
+1. The training and test sets were merged into a single data set;
+2. The columns representing a standard deviation or mean measurement were extracted from the single data set;
+3. The integers representing an activity (i.e., 1-6) where replaced with a more decriptive character strings (i.e., walking walking upstairs, walking downstairs, sitting, standing and laying);
+4. The dependant variables were named (see below); and
+5. Each variable was averaged over each activity and each subject.
 
 ## Key identifying values
-"ID" "Activity" 
+the first two columns represent the following:
+1. ID - the unique identification number for each participant; and
+2. Activity - the acticity that the participant was performing.
 
 ## Dependant measures/values
+All the following collumns represent a dependant value:
 - tBodyAcc-mean()-X 
 - tBodyAcc-mean()-Y 
 - tBodyAcc-mean()-Z 
