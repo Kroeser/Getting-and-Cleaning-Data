@@ -6,7 +6,7 @@ The purpose of this project was to demonstrate my ability to collect, work with,
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data used in this projects is collected from the accelerometers from the Samsung Galaxy S smartphone. The raw data can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-And A full description is available at this site:
+And a full description is available at this site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Contents of this repository
