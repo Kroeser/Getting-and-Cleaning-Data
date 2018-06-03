@@ -1,6 +1,8 @@
 # Code book in relation [tidyData.txt](tidyData.txt)
 This code book describes the steps that were performed to obatain the tidyData.txt file from the raw data and explains the variables as included in the tidyData.txt file.
 
+The raw data used in this projects is collected from the accelerometers from the Samsung Galaxy S smartphone. The raw data can be found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 ## Processing steps
 The following steps were undertaken to transform the raw data into the tidy data:
 1. The training and test sets were merged into a single data set;
@@ -20,8 +22,8 @@ The first two columns of tidyData.txt represent the following:
 * standing; and
 * laying.
 
-## Dependant measures/values
-The rest of the columns (i.e., 3 through 81) represent the following dependant values:
+## Dependant mean and standard deviation measures/values
+The rest of the columns (i.e., 3 through 81) all represent either a mean or standerd deviation value that relates to the data collected with the accelerometers. The columns names are as follows:
 - tBodyAcc-mean()-X 
 - tBodyAcc-mean()-Y 
 - tBodyAcc-mean()-Z 
